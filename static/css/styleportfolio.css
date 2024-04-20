@@ -1,4 +1,3 @@
-
 body{
     background-image: url(https://www.ipadwallpaper.org/wp-content/uploads/2021/02/Black-roses-gift-anniversary-iPad-wallpaper.jpg);
 }
@@ -42,7 +41,7 @@ body{
   }
   
   /* Styles for introduction section */
-  .introduction {
+  .projects {
     text-align: center;
     margin-top: 20px;
     color: white;
@@ -56,3 +55,10 @@ body{
     color: white;
     font-size: large;
   }
+  .projects img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+}
+
+.projects .small-img {
+    width: 200px; /* Set the width to your desired size */
+}
